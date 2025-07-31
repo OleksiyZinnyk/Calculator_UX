@@ -33,7 +33,7 @@ public class Calculator {
     String B = null;
 
     Calculator() {
-        // Ставимо універсальний стиль для однакового вигляду на Mac/Windows
+        // Universal style for Mac/Windows
         try {
             UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
         } catch (Exception e) {
